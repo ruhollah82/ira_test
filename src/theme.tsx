@@ -19,6 +19,7 @@ const darkTheme = createTheme({
     fontFamily: "Vazir, StyleScript, Arial, sans-serif",
     button: { textTransform: "none" },
     h1: { fontSize: "12rem", fontWeight: "bold", color: "#ffffff" },
+    h2: { fontSize: "6rem", color: "#ffffff" },
   },
   shape: { borderRadius: 16 },
   components: {
@@ -58,6 +59,17 @@ const darkTheme = createTheme({
           backdropFilter: "blur(16px)",
           WebkitBackdropFilter: "blur(16px)",
           background: "rgba(0, 0, 0, 0)",
+        },
+      },
+    },
+    MuiAccordion: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "transparent",
+          boxShadow: "none",
+          "&:before": {
+            display: "none",
+          },
         },
       },
     },
