@@ -16,7 +16,7 @@ const Footer = () => {
         color: "white",
       }}
     >
-      <Box className="container">
+      <Box>
         <Box
           sx={{
             display: "flex",

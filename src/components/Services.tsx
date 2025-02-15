@@ -15,7 +15,7 @@ const Services = () => {
               <Typography variant="h4" color="white">
                 As a tight-knit team of experts, we create memorable and
                 emotional websites,
-                <span className="sub-color inline">
+                <span>
                   {" "}
                   digital experiences, and native apps.
                 </span>
@@ -24,7 +24,6 @@ const Services = () => {
                 variant="outlined"
                 sx={{ mt: 4 }}
                 href="../inner_pages/services.html"
-                className="butn butn-md butn-bord butn-rounded"
               >
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <span>Learn More</span>
@@ -35,7 +34,6 @@ const Services = () => {
         </Container>
 
         <Box
-          className="numbers"
           sx={{ marginTop: "4rem", borderBottom: " 1px solid gray" }}
         >
           <Grid container spacing={4}>
